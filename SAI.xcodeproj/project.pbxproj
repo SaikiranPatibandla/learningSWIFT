@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FD5257691FAC3A0600E8DC89 /* Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD5257691FAC3A0600E8DC89 /* SAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD52576C1FAC3A0600E8DC89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD52576E1FAC3A0600E8DC89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD5257711FAC3A0600E8DC89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		FD52576A1FAC3A0600E8DC89 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD5257691FAC3A0600E8DC89 /* Swift.app */,
+				FD5257691FAC3A0600E8DC89 /* SAI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD5257681FAC3A0600E8DC89 /* Swift */ = {
+		FD5257681FAC3A0600E8DC89 /* SAI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD52577B1FAC3A0700E8DC89 /* Build configuration list for PBXNativeTarget "Swift" */;
+			buildConfigurationList = FD52577B1FAC3A0700E8DC89 /* Build configuration list for PBXNativeTarget "SAI" */;
 			buildPhases = (
 				FD5257651FAC3A0600E8DC89 /* Sources */,
 				FD5257661FAC3A0600E8DC89 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Swift;
+			name = SAI;
 			productName = Swift;
-			productReference = FD5257691FAC3A0600E8DC89 /* Swift.app */;
+			productReference = FD5257691FAC3A0600E8DC89 /* SAI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,11 +96,11 @@
 				TargetAttributes = {
 					FD5257681FAC3A0600E8DC89 = {
 						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = FD5257641FAC3A0600E8DC89 /* Build configuration list for PBXProject "Swift" */;
+			buildConfigurationList = FD5257641FAC3A0600E8DC89 /* Build configuration list for PBXProject "SAI" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD5257681FAC3A0600E8DC89 /* Swift */,
+				FD5257681FAC3A0600E8DC89 /* SAI */,
 			);
 		};
 /* End PBXProject section */
@@ -274,11 +274,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.inflexion.Swift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inflexion.sai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +290,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.inflexion.Swift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.inflexion.sai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD5257641FAC3A0600E8DC89 /* Build configuration list for PBXProject "Swift" */ = {
+		FD5257641FAC3A0600E8DC89 /* Build configuration list for PBXProject "SAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD5257791FAC3A0700E8DC89 /* Debug */,
@@ -310,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD52577B1FAC3A0700E8DC89 /* Build configuration list for PBXNativeTarget "Swift" */ = {
+		FD52577B1FAC3A0700E8DC89 /* Build configuration list for PBXNativeTarget "SAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FD52577C1FAC3A0700E8DC89 /* Debug */,
